@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Devs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <header>
+        
+        <img src="IMAGENS/LOGO.png" alt="">
+        <div class="header_buttons">
+        <input type="button" value="Suporte" class="buttons_header">
+        <input type="button" value="FAQ" class="buttons_header">
+        <input type="button" value="Contato" class="buttons_header">
+        </div>
+         
+        
+    </header>
+        <div class="introduction">
+           <h4> Seja Bem Vindo ao site de Cadastro de Devs</h3>
+           <p>Para fazê-lo é simples, apenas responda algumas perguntas</p>
+           <p>E logo poderá cadastrar o seu currículo</p>
+            
+        </div>
+        
+          <form id="formulario" class="form">
+            <label for="name">
+            <p>Informe seu nome</p>
+            <input type="text"  id="name" class="inputs_form" >
+            </label>
+        <label for="age" >
+                <p>Data de Nascimento</p>
+                <input type="date" name="age" id="age" class="inputs_form">
+        </label>
+        <label for="section">
+            <p>Faça um pequeno texto sobre voce:</p>
+            <textarea name="section" id="section" class="inputs_form" cols="30" rows="10" placeholder="Faça um pequeno texto sobre voce"></textarea>
+        </label>
+
+        <label for="newTecnologia">
+            <button type="submit" id="add" class="buttons_submit">adicionar  Tecnologia</button>
+                <ul id="listaTecnologia"></ul>
+        </label>
+            
+            <button class="buttons_submit">Cadastrar</button>
+            <div id="card_user" class="card_user">
+
+            </div> 
+        </form>
+        <footer>
+           <a href="https://github.com/fillypecunha">GitHUB</a>
+           <a href="www.linkedin.com/in/fillype-da-silva">Linkedin</a>
+            <p>Termos de Uso- Fillype Da Silva</p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
